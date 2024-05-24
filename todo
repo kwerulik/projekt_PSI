@@ -44,10 +44,51 @@ HTML - na podstawie FIGMY
 
         Split L-33% / R-66%
 
-    SEGMENT 4 - Video + Text
+    SEGMENT 4 - Img + Text
 
-        Left - Video + small background img
+        Left - Img + small background img
 
         Right - Title + text below + small background img
 
         Split L-33% / R-66%
+
+CSS
+
+    Czcionka: didact gothic regular
+    
+    margin left-right dla Navbara, Seg2, Seg4 - 15%
+    
+    margin up-down dla każdego elementu poza Seg3 - 5%
+
+    paddingi i marginy Seg1 i Seg3 do ręcznego ustawienia
+
+
+
+    BREAKPOINTY: 768px/600px? + może 1080px?
+
+    Responsywność:
+
+        NAVBAR - bez zmian jeśli się zmieści
+
+        Seg1 - zmiana z wiersza na kolumnę
+
+        Seg2 - jeśli się zmieści to zwężenie z 1 wiersza na 2, jak nie to zmiana w kolumnę
+
+        Seg3 - zmiana w kolumnę
+
+        Seg4 - zmiana w kolumnę
+
+MEDIA
+
+    Zebrać i wrzucić do folderu
+        
+        1x img do Segmentu1
+
+        4x Logo do Seg2
+
+        4x small Img do Seg3
+
+        1x Img do Seg4
+
+        9x background img
+
