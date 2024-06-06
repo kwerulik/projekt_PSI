@@ -21,7 +21,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 7%;
+    padding: 20px 15%;
     background-color: #fff;
 }
 
@@ -43,7 +43,7 @@ body {
 #segment1 {
     display: flex;
     margin: 5% 0;
-    margin-left: 7%;
+    margin-left: 15%;
 }
 
 #segment1-left {
@@ -85,7 +85,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 5% 7%;
+    margin: 5% 15%;
 }
 
 .logo-bar-element {
@@ -114,6 +114,7 @@ body {
     height: auto;
 }
 
+/* segment3 */
 
 #segment3 {
     display: grid;
@@ -170,4 +171,5 @@ body {
     height: 120px;
     width: 120px;
 }
+
 
