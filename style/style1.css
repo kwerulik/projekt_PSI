@@ -114,15 +114,20 @@ body {
     height: auto;
 }
 
+<<<<<<< HEAD
+=======
 /* segment3 */
 
+>>>>>>> 2722d0ac7989b70ca9af6791cbe73b046334d240
 #segment3 {
     display: grid;
     padding: 5%;
     background-color: #fff;
     grid-template-columns: 1fr 2fr;
     background-image: url("../media/segment3/seg3_background.png");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
 }
 
 #segment3-left {
@@ -221,3 +226,14 @@ body {
 }
 
 
+<<<<<<< HEAD
+@media (max-width: 968px) {
+    #segment3 {
+        grid-template-columns: 1fr;
+    }
+    #segment3-right {
+        flex-direction: column;
+    }
+}
+=======
+>>>>>>> 2722d0ac7989b70ca9af6791cbe73b046334d240
