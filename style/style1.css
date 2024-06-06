@@ -114,11 +114,8 @@ body {
     height: auto;
 }
 
-<<<<<<< HEAD
-=======
 /* segment3 */
 
->>>>>>> 2722d0ac7989b70ca9af6791cbe73b046334d240
 #segment3 {
     display: grid;
     padding: 5%;
@@ -180,14 +177,35 @@ body {
 }
 
 
-<<<<<<< HEAD
 @media (max-width: 968px) {
+    #segment1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    #segment2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     #segment3 {
         grid-template-columns: 1fr;
+        background-image: none;
+    }
+    #segment3-left {
+        background-color: #FFF5DB;
+        border-radius: 75% 0 0 0;
+        padding: 1%;
+        margin: 5%;
     }
     #segment3-right {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #F4F9FF;
+        border-radius: 25%;
+        padding: 1%;
+        margin: 5%;
     }
 }
-=======
->>>>>>> 2722d0ac7989b70ca9af6791cbe73b046334d240
