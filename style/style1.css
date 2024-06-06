@@ -7,7 +7,7 @@ body {
 
 @font-face {
     font-family: 'Didact Gothic';
-    src: url('../style/FontsFree-Net-AvertaDemoPECuttedDemo-Regular.ttf') format('truetype');
+    src: url('../media/FontsFree-Net-AvertaDemoPECuttedDemo-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
