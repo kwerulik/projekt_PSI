@@ -21,7 +21,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 15%;
+    padding: 20px 7%;
     background-color: #fff;
 }
 
@@ -38,12 +38,12 @@ body {
     cursor: pointer;
 }
 
-
-
+/* segment1 */
 
 #segment1 {
     display: flex;
-    margin: 5% 15%;
+    margin: 5% 0;
+    margin-left: 7%;
 }
 
 #segment1-left {
@@ -63,6 +63,7 @@ body {
 #segment1-right img {
     width: 100%;
     border-bottom-left-radius: 15px;
+    position: right;
 }
 
 .cta-button {
@@ -78,6 +79,41 @@ body {
 .cta-button:hover {
     background-color: #2639ED;
 }
+
+/* segment2 */
+#segment2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% 7%;
+}
+
+.logo-bar-element {
+    flex-basis: 18%; 
+    text-align: center;
+    margin: 0 5px;
+}
+
+.logo-bar-element h1 {
+    margin-bottom: 17px;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: left;
+}
+
+.logo-bar-element p {
+    margin: 0;
+    font-size: 18px;
+    color: gray;
+    text-align: left;
+}
+
+.logo-bar-element img {
+    margin-top: 90px;
+    width: 150px;
+    height: auto;
+}
+
 
 #segment3 {
     display: grid;
@@ -136,3 +172,4 @@ body {
     height: 120px;
     width: 120px;
 }
+
