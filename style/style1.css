@@ -21,7 +21,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 7%;
+    padding: 20px 15%;
     background-color: #fff;
 }
 
@@ -43,7 +43,7 @@ body {
 #segment1 {
     display: flex;
     margin: 5% 0;
-    margin-left: 7%;
+    margin-left: 15%;
 }
 
 #segment1-left {
@@ -85,7 +85,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 5% 7%;
+    margin: 5% 15%;
 }
 
 .logo-bar-element {
@@ -114,6 +114,11 @@ body {
     height: auto;
 }
 
+<<<<<<< HEAD
+=======
+/* segment3 */
+
+>>>>>>> 2722d0ac7989b70ca9af6791cbe73b046334d240
 #segment3 {
     display: grid;
     padding: 5%;
@@ -175,6 +180,7 @@ body {
 }
 
 
+<<<<<<< HEAD
 @media (max-width: 968px) {
     #segment3 {
         grid-template-columns: 1fr;
@@ -183,3 +189,5 @@ body {
         flex-direction: column;
     }
 }
+=======
+>>>>>>> 2722d0ac7989b70ca9af6791cbe73b046334d240
