@@ -177,6 +177,52 @@ body {
 }
 
 
+/* segment4 */
+.segment4-container {
+    display: flex;
+    margin: 5% 15%;
+}
+
+.segment4-left {
+    flex: 1;
+    margin-right: 39px; 
+}
+
+.segment4-left img {
+    width: 100%;
+}
+
+.segment4-right {
+    flex: 1;
+    position: relative;
+    margin-top: 5%;
+}
+
+.segment4-right h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.segment4-right p {
+    margin: 0;
+    margin-left: 40px;
+    color: gray;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 178px; /* Szerokość obrazka tła */
+    height: 178px; /* Wysokość obrazka tła */
+    background-image: url('../media/segment4/background_right.jpg'); /* Zdjęcie tła */
+    background-size: cover;
+    z-index: -1;
+}
+
+
 @media (max-width: 968px) {
     #segment1 {
         flex-direction: column;
