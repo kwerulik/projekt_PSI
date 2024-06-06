@@ -78,3 +78,59 @@ body {
 .cta-button:hover {
     background-color: #2639ED;
 }
+
+#segment3 {
+    display: grid;
+    padding: 20px 15%;
+    background-color: #fff;
+    grid-template-columns: 1fr 2fr;
+}
+
+#segment3-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#segment3-right {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 15%;
+    background-color: #fff;
+}
+
+.seg3-column {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.seg3spacer {
+    height: 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: lightgray 1px solid;
+    border-radius: 10%;
+    width: 300px;
+    height: 400px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    * {
+        padding-left: 15%;
+        padding-right: 15%;
+        text-align: center;
+    }
+}
+
+.card-img {
+    height: 120px;
+    width: 120px;
+}
