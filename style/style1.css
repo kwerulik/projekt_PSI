@@ -21,7 +21,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 15%;
+    padding: 20px 5%;
     background-color: #fff;
 }
 
@@ -253,5 +253,10 @@ body {
         border-radius: 25%;
         padding: 1%;
         margin: 5%;
+    }
+    #segment4 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
