@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+@font-face {
+    font-family: 'Didact Gothic';
+    src: url('../style/FontsFree-Net-AvertaDemoPECuttedDemo-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.flex-container {
+    width: 100%;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15%;
+    background-color: #fff;
+}
+
+#navbar-left h2 {
+    margin: 0;
+}
+
+#navbar-right {
+    display: flex;
+}
+
+.navbar-element {
+    margin-left: 20px;
+    cursor: pointer;
+}
