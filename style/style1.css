@@ -37,3 +37,44 @@ body {
     margin-left: 20px;
     cursor: pointer;
 }
+
+
+
+
+#segment1 {
+    display: flex;
+    margin: 5% 15%;
+}
+
+#segment1-left {
+    width: 33%;
+    padding: 20px;
+    margin-top: 10%;
+}
+
+#segment1-left button{
+    position: center;
+}
+
+#segment1-right {
+    width: 66%;
+}
+
+#segment1-right img {
+    width: 100%;
+    border-bottom-left-radius: 15px;
+}
+
+.cta-button {
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #2639ED;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #2639ED;
+}
