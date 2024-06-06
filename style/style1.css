@@ -81,9 +81,11 @@ body {
 
 #segment3 {
     display: grid;
-    padding: 20px 15%;
+    padding: 5%;
     background-color: #fff;
     grid-template-columns: 1fr 2fr;
+    background-image: url("../media/segment3/seg3_background.png");
+    background-size: cover;
 }
 
 #segment3-left {
@@ -91,21 +93,19 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    padding: 15%;
 }
 
 #segment3-right {
     display: flex;
     flex-direction: row;
-    padding: 20px 15%;
-    background-color: #fff;
+    padding: 15%;
 }
 
 .seg3-column {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background-color: #fff;
 }
 
 .seg3spacer {
@@ -117,15 +117,17 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    border: lightgray 1px solid;
+    border: whitesmoke 1px solid;
     border-radius: 10%;
     width: 300px;
     height: 400px;
     margin-top: 5%;
     margin-bottom: 5%;
+    box-shadow: 2px 2px 2px 2px whitesmoke;
+    background-color: white;
     * {
-        padding-left: 15%;
-        padding-right: 15%;
+        padding-left: 10%;
+        padding-right: 10%;
         text-align: center;
     }
 }
