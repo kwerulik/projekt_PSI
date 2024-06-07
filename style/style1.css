@@ -76,10 +76,6 @@ body {
     cursor: pointer;
 }
 
-.cta-button:hover {
-    background-color: #2639ED;
-}
-
 /* segment2 */
 #segment2 {
     display: flex;
